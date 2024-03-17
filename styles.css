@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    width: 90%;
+    max-width: 385px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 175px;
+    margin-bottom: 175px;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div {
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    max-width: 300px;
+}
+
+img {
+    border-radius: 50%;
+    width: 90px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+address {
+    font-style: normal;
+    color: hsl(75, 94%, 57%);
+}
+
+a {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: hsl(0, 0%, 20%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.remove-margin {
+    margin-bottom: 0;
+}
